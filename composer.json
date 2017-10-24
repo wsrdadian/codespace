@@ -1,0 +1,23 @@
+{
+    "name": "wispiring/code-space",
+    "description": "Managing your code - projects and repositories",
+    "homepage": "https://bitbucket.org/wispiring/code-space",
+    "keywords": ["wispiring", "project", "git", "project", "code", "repository"],
+    "type": "application",
+    "authors": [
+        {
+            "name": "Hongliang",
+            "email": "hongliang@wispiring.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "~3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wispiring\\CodeSpace\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
