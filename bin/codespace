@@ -26,4 +26,5 @@ $application->add(new \Wispiring\CodeSpace\Command\ScanCommand());
 $application->add(new \Wispiring\CodeSpace\Command\GitFetchCommand());
 $application->add(new \Wispiring\CodeSpace\Command\AtomUpdateCommand());
 $application->add(new \Wispiring\CodeSpace\Command\ExportCommand());
+$application->add(new \Wispiring\CodeSpace\Command\HtmlExportCommand());
 $application->run();
